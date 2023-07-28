@@ -166,3 +166,10 @@ footer div img{
     height:30px;
     width: 30px;
 }
+@media (max-width:600px){
+    .headlines{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
